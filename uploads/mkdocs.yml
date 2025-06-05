@@ -1,0 +1,107 @@
+site_name: CTX-EOR
+site_description: Trial Hiring & Employer of Record for U.S. Companies
+site_author: CTX-EOR Team
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+  logo: logo.png
+  favicon: logo.png
+
+palette:
+  - scheme: default
+    primary: blue
+    accent: teal
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    primary: blue
+    accent: teal
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Request a Demo: demo-request.md
+  - Why CTX-EOR: why-ctx.md
+  - Employer Overview: employer-overview.md
+  - Recruiting Services:
+      - Read Me documentation: recruiting/readme.md
+      - Platform Requirements: recruiting/platform-requirements.md
+      - Overview: recruiting/recruiting-as-a-service.md
+      - Smart Recruiting: recruiting/smart-recruiting.md
+      - Customer Example: recruiting/customer-walkthrough-example.md
+      - Ad Generator: recruiting/ad-copy-generator.md
+      - Campaign Placement: recruiting/campaign-placement.md
+      - Customer Customization: recruiting/customization-panel.md
+      - Data: recruiting/data-strategy.md
+      - Placemet Engine: recruiting/placement-engine.md
+  - How It Works:
+      - Overview: how-it-works.md
+      - Candidate Onboarding: onboarding/onboarding-step-2-candidate-onboarding.md
+      - Employment Forms: onboarding/onboarding-step-3-employment-forms.md
+      - Screening & Background Checks: onboarding/onboarding-step-4-screening.md
+      - Benefits & Coverage: onboarding/onboarding-step-5-benefits.md
+      - Emergency Contact: onboarding/onboarding-step-6-emergency-contact.md
+      - Work Rules & Acknowledgment: onboarding/onboarding-step-7-work-rules.md
+      - Payroll Preview: onboarding/onboarding-step-8-payroll-preview.md
+      - Summary & Attestation: onboarding/onboarding-step-9-summary-attestation.md
+      - Final Confirmation & PDF Preview: onboarding/onboarding-step-10-final-confirmation.md
+  - Trial Hiring: trial-hiring.md
+  - Trial Builder:
+      - Overview: trial/trial-builder.md
+      - Trial Builder: trial/trial-builder-step1.md
+      - Role Template: trial/trial-builder-step2.md
+      - Customize Role: trial/trial-builder-step3.md
+      - Timeline & Manager: trial/trial-builder-step4.md
+      - Worksite & Schedule: trial/trial-builder-step5.md
+      - Screening Requirements: trial/trial-builder-step6.md
+      - Pay & Benefits: trial/trial-builder-step7.md
+      - Employer Cost Estimate: trial/trial-builder-step8.md
+      - Trial Timeline & Check-ins: trial/trial-builder-step9.md
+      - Finalize & Save: trial/trial-builder-step10.md
+      - Fine-Tune Production Worker: trial/fine-tune-production-worker.md
+      - Evaluation-Checkpoints: trial/evaluation-checkpoints.md
+      - Save Trial: trial/save-and-share.md
+      - Trial Dashboard: trial/trial-dashboard.md
+      - Trial Details: trial/trial-details.md
+  - Structured Evaluation: structured-evaluation.md
+  - Compliance: compliance.md
+  - The CTX Platform: platform.md
+  
+  - Services:
+      - Overview: services-overview.md
+      - EOR: eor.md
+      - Payroll: payroll.md
+      - Benefits: benefits.md
+  - Pricing: pricing.md
+  - Who It’s For: who-its-for.md
+  - Industries We Support: industries.md
+  - Proof It Works: proof.md
+  - About Us: about.md
+  - Contact: contact.md
+  - Dashboards:
+      - Customer Dashboard: customer/customer-dashboards.md
+      - Trial Status: customer/trial-status.md
+      - Onboarding Progress: customer/onboarding-progress.md
+      - Trial Activity Log: customer/trial-activity-log.md
+      - Documents & Forms: customer/documents-and-forms.md
+      - Team & Permissions: customer/team-and-permissions.md
+      - Account Settings: customer/account-settings.md
+      # Add more customer subpages here as created
+      - Staff/Admin Dashboard: staff/staff-dashboards.md
+      # Add more staff subpages here as created
+  - Customer Portal:
+      - Log In: customer/login.md
+  - CTX-EOR Admin:
+      - Log In: staff/login.md
+      - Account Representative Dashboard: staff/account-rep-dashboard.md
+      - Customer Overview: staff/customer-overview.md
+      - Admin Dashboard: staff/admin-dashboard.md
+      - Staff User Management: staff/staff-users.md
+      - Compliance Queue: staff/compliance-queue.md
+
