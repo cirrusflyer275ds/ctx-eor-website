@@ -1,0 +1,8 @@
+[build]
+  base = "ctx-eor-website-complete"
+  command = "npm ci && npm run build"
+  publish = "ctx-eor-website-complete/.next"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "latest"
